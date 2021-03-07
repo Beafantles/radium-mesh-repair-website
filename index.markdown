@@ -5,9 +5,9 @@ layout: home
 
 ![alt text](logo-ups.png)
 
-# Chef d'oeuvre
+# Chef d'oeuvre 
 
-## Contexte
+# **Contexte** ![](./images/sujet.png)
 
 Ce projet s'inscrit dans le cadre de l'UE Chef d'Oeuvre du Master 2 Informatique Graphique et Analyse d'Images.
 Il s'agit d'un projet réalisé tout au long de l'année en petites équipes.
@@ -18,22 +18,21 @@ Nous nous sommes basés sur l'article [Cutting and Stitching: Converting Sets of
 Les algorithmes proposés par l'article sont uniquement des corrections **topologiques** : seulement la facon dont les éléments sont connectés est changée.
 Il n'y a donc aucun changement **visuel** entre la surface d'entrée et la surface de sortie.
 
+# **Résultat** ![](./images/resultat.png)
 
-# **Notre equipe** ![](./images/equipe.png)
-
-Nous sommes l'équipe géométrie des groupes de chef d'oeuvre de 2020-2021 dont les membres sont :
+# **Notre équipe** ![](./images/equipe.png)
 
 **BARROSO** Laura
 
 **BOUYRIE** Martin
 
-**EGNER** Sebastien
+**EGNER** Sébastien
 
 # **Livrables** ![](./images/livrable.png)
 
-**Methodes et Algorithmes :** [Rapport](./livrables/Chef_doeuvre_BARROSO_BOUYRIE_EGNER.pdf) et [diapositives de notre presentation](./livrables/presentation_methodes_algorithmes.pdf)
+**Méthodes et Algorithmes :** [Rapport](./livrables/Chef_doeuvre_BARROSO_BOUYRIE_EGNER.pdf) et [diapositives de notre presentation](./livrables/presentation_methodes_algorithmes.pdf)
 
-**Specifications :** [Rapport](./livrables/Chef_d_Oeuvre_Specifications.pdf) et [diapositives de notre presentation](./livrables/Presentation Specification CO.pdf)
+**Spécifications :** [Rapport](./livrables/Chef_d_Oeuvre_Specifications.pdf) et [diapositives de notre presentation](./livrables/Presentation Specification CO.pdf)
 
 **Conception :** [Rapport](./livrables/CO_Conception_BARROSO_BOUYRIE_EGNER.pdf) et [diapositives de notre presentation](./livrables/Presentation Conception Co.pdf)
 
