@@ -2,41 +2,19 @@
 layout: home
 ---
 
+![alt text](logo-ups.png)
 
-## Welcome to GitHub Pages
+# Chef d'oeuvre
 
-You can use the [editor on GitHub](https://github.com/Beafantles/raidium-mesh-repair-website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Contexte
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Ce projet s'inscrit dans le cadre de l'UE Chef d'Oeuvre du Master 2 Informatique Graphique et Analyse d'Images.
+Il s'agit d'un projet réalisé tout au long de l'année en petites équipes.
 
-### Markdown
+Notre sujet a été proposé par Loïc Barthe et encadré par Nicolas Mellado et concerne la réparation de surfaces non manifold.
+En effet, ces surfaces posent de nombreux problèmes en informatique graphique ou en conception assistée par ordinateur.
+Nous nous sommes basés sur l'article [Cutting and Stitching: Converting Sets of Polygons to Manifold Surfaces](https://pdfs.semanticscholar.org/f671/0af0fa730aef55a81499cc2f61d73cd364ee.pdf).
+Les algorithmes proposés par l'article sont uniquement des corrections **topologiques** : seulement la facon dont les éléments sont connectés est changée.
+Il n'y a donc aucun changement **visuel** entre la surface d'entrée et la surface de sortie.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Beafantles/raidium-mesh-repair-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
