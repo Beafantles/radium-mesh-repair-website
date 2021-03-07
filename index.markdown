@@ -14,7 +14,7 @@ Il s'agit d'un projet réalisé tout au long de l'année en petites équipes.
 Notre sujet a été proposé par Loïc Barthe et encadré par Nicolas Mellado et concerne la réparation de surfaces non manifold.
 En effet, ces surfaces posent de nombreux problèmes en informatique graphique ou en conception assistée par ordinateur.
 Nous nous sommes basés sur l'article [Cutting and Stitching : Converting Sets of Polygons to Manifold Surfaces](https://pdfs.semanticscholar.org/f671/0af0fa730aef55a81499cc2f61d73cd364ee.pdf).
-Les algorithmes proposés par l'article sont uniquement des corrections **topologiques** : seulement la manière dont les éléments sont connectés est changée.
+Les algorithmes proposés par l'article sont uniquement des corrections **topologiques** : seule la manière dont les éléments sont connectés est changée.
 Il n'y a donc aucun changement **visuel** entre la surface d'entrée et la surface de sortie.
 
 # **Résultats** ![](./images/resultat.png)
@@ -26,8 +26,8 @@ L'image suivante présente le maillage que l'on souhaite réparer et qui présen
 
 ![maillage_origine](images/2_rectangles.png)
 
-Ce maillage présentant une singularité topologique, il ne peut être chargé correctement par Radium.
-En effet, les faces présentant des singularités topologiques ne sont pas ajoutées au maillage chargé par Radium, ce qui nous donne le maillage suivant :
+Ce maillage présentant une singularité topologique, il ne peut être chargé correctement par [Radium-Engine](https://github.com/STORM-IRIT/Radium-Engine).
+En effet, les faces présentant des singularités topologiques ne sont pas ajoutées au maillage chargé par [Radium-Engine](https://github.com/STORM-IRIT/Radium-Engine), ce qui nous donne le maillage suivant :
 
 ![maillage_charge](images/2_rectangles_radium.png)
 
@@ -37,7 +37,7 @@ Le résultat suivant correspond au maillage obtenu après l'application de notre
 Les faces en rouge correspondent aux faces connectées entre elles (possédant au moins une arête commune).
 Comme on peut le voir, le parallélépipède de gauche est correctement traité.
 Cependant, toutes les faces du parallélépipède de droite n'ont pas été reconnectées et cela constitue donc une piste d'amélioration.
-En effet, même si la correction apportée au maillage fonctionne (le maillage résultant ne présente plus de singularités), il reste cependant optimisable, en reconnectant encore certaines faces, afin que le maillage résultant soit moins lourd (possède moins de sommets).
+En effet, même si la correction apportée au maillage fonctionne (le maillage résultant ne présente plus de singularités), elle reste cependant optimisable, en reconnectant encore certaines faces, afin que le maillage résultant soit moins lourd (possède moins de sommets).
 
 <div style="display:flex;flex-direction:row">
 <img src="images/2_rectangles_left.png" width="50%" height="auto" style="margin:5px">
@@ -54,7 +54,7 @@ En effet, même si la correction apportée au maillage fonctionne (le maillage r
 
 # **Livrables** ![](./images/livrable.png)
 
-**Méthodes et Algorithmes :** [Rapport](./livrables/Chef_doeuvre_BARROSO_BOUYRIE_EGNER.pdf) et [diapositives de notre présentantsentation](./livrables/presentation_methodes_algorithmes.pdf)
+**Méthodes et Algorithmes :** [Rapport](./livrables/Chef_doeuvre_BARROSO_BOUYRIE_EGNER.pdf) et [diapositives de notre présentation](./livrables/presentation_methodes_algorithmes.pdf)
 
 **Spécifications :** [Rapport](./livrables/Chef_d_Oeuvre_Specifications.pdf) et [diapositives de notre présentation](./livrables/Presentation Specification CO.pdf)
 
