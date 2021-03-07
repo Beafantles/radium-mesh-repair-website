@@ -2,7 +2,7 @@
 layout: home
 ---
 
-![alt text](logo-ups.png)
+![](./images/logo-ups.png)
 
 # Traitement de la géométrie : décomposition de maillages en variétés topologiques
 
