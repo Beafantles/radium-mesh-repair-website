@@ -54,7 +54,7 @@ En effet, même si la correction apportée au maillage fonctionne (le maillage r
 
 # **Livrables** ![](./images/livrable.png)
 
-**Méthodes et Algorithmes :** [Rapport](./livrables/Chef_doeuvre_BARROSO_BOUYRIE_EGNER.pdf) et [diapositives de notre présentantsentation](./livrables/presentation_methodes_algorithmes.pdf)
+**Méthodes et Algorithmes :** [Rapport](./livrables/Chef_doeuvre_BARROSO_BOUYRIE_EGNER.pdf) et [diapositives de notre présentation](./livrables/presentation_methodes_algorithmes.pdf)
 
 **Spécifications :** [Rapport](./livrables/Chef_d_Oeuvre_Specifications.pdf) et [diapositives de notre présentation](./livrables/Presentation Specification CO.pdf)
 
